@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #2e2626;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #152333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.result {
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.underweight { background: #d0e7ff; }
+.normal { background: green; }
+.overweight { background: yellow; }
+.obese { background: red; }
+.error { background: #ffd6d6; color: #c00; }
